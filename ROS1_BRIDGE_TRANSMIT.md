@@ -5,6 +5,9 @@ This is a tutorial for how to transmit bytes data between ROS1 and ROS2 node usi
 
 This tutorial refers from [custom_msg tutorial](https://www.youtube.com/watch?v=vBlUFIOHEIo) and [ros1_bridge foxy branch official tutorial](https://github.com/ros2/ros1_bridge/tree/foxy).
 
+Steps are shown in Figure; Run ROS1 machine first, and then run ROS2 machine.
+![ros1_bridge_architecture](./images/ros1_bridge_architecture.jpg)
+
 ### File Structure
 Three workspace is need: ros1_ws, ros2_ws and bridge_ws.
 ```
