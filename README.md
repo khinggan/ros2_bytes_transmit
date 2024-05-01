@@ -48,7 +48,7 @@ ros2 run ros2_bytes_transmit client.py
 Create package `ros2_bytes_transmit`
 ```bash
 cd <your_workspace>/src
-ros2 pkg create ros2_bytes_transmit --build-type ament_cmake --dependencies std_msgs rclcpp rclp
+ros2 pkg create ros2_bytes_transmit --build-type ament_cmake --dependencies std_msgs rclcpp rclpy
 ```
 
 Create python packages
